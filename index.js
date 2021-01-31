@@ -41,6 +41,9 @@ Do the following:
 let name = 'jade';
 let jadesAge = 28;
 
+if (jadesAge > 21) {
+  console.log(name.toUpperCase());
+}
 
 
 
@@ -55,7 +58,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+let someNumberString = '1999';
+someNumberString = Number(someNumberString);
+console.log(someNumberString);
 
 
 /*
